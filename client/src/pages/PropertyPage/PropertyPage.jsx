@@ -18,6 +18,24 @@ const PropertyPage =({slug}) => {
                 <div className="property-name">
                     <h1>{property.property_title}</h1>
                 </div>
+                {/* landing section slideshow */}
+                <div className="container">
+                    <div className="slider-wrapper">
+                        <div className="slider">
+                            {property.property_landing_images.map((ingSrc, index) => (
+                                <img src={imgSrc} 
+                                alt={`Property image ${index+1}`} 
+                                key={index}
+                                id={`slide-${index+1}`}/>
+                            ))}
+                        </div>
+                        <div className="slider-nav">
+                            {property.property_landing_images.map((_, index) => (
+                                <a href={`#slide-${index + 1}`}></a>
+                            ))}
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="intro-section">
