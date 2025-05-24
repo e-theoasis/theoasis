@@ -17,11 +17,11 @@ import p1_gallery2_2 from '../assets/property/one/gallery2-2.jpg';
 import p1_gallery2_3 from '../assets/property/one/gallery2-3.jpg';
 
 // PROPERTY TWO IMAGES
-import p2_landing1 from '../assets/property/two/landing-1.jpeg';
-import p2_landing2 from '../assets/property/two/landing-2.jpeg';
-import p2_landing3 from '../assets/property/two/landing-3.jpeg';
-import p2_landing4 from '../assets/property/two/landing-4.jpeg';
-import p2_landing5 from '../assets/property/two/landing-5.jpeg';
+import p2_landing1 from '../assets/property/two/landing1.jpeg';
+import p2_landing2 from '../assets/property/two/landing2.jpeg';
+import p2_landing3 from '../assets/property/two/landing3.jpeg';
+import p2_landing4 from '../assets/property/two/landing4.jpeg';
+import p2_landing5 from '../assets/property/two/landing5.jpeg';
 import p2_logo from '../assets/property/two/logo.jpg';
 import p2_about1 from '../assets/property/two/about1.jpg';
 import p2_about2 from '../assets/property/two/about2.jpg';
