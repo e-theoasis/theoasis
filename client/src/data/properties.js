@@ -67,6 +67,20 @@ import p4_gallery1_4 from '../assets/property/four/gallery1-4.jpg';
 import p4_gallery2_1 from '../assets/property/four/gallery2-1.jpg';
 import p4_gallery2_2 from '../assets/property/four/gallery2-2.jpg';
 
+// PROPERTY FIVE IMAGES
+import p5_landing1 from '../assets/property/five/landing1.jpeg';
+import p5_landing2 from '../assets/property/five/landing2.jpeg';
+import p5_landing3 from '../assets/property/five/landing3.jpeg';
+import p5_logo from '../assets/property/five/logo.jpg';
+import p5_about1 from '../assets/property/five/about1.jpg';
+import p5_about2 from '../assets/property/five/about2.jpg';
+import p5_gallery1_1 from '../assets/property/five/gallery1-1.jpg';
+import p5_gallery1_2 from '../assets/property/five/gallery1-2.jpg';
+import p5_gallery1_3 from '../assets/property/five/gallery1-3.jpg';
+import p5_gallery1_4 from '../assets/property/five/gallery1-4.jpg';
+import p5_gallery2_1 from '../assets/property/five/gallery2-1.jpg';
+import p5_gallery2_2 from '../assets/property/five/gallery2-2.jpg';
+
 export const properties = {
 
     // PROPERTY ONE DATA
@@ -172,6 +186,32 @@ export const properties = {
         property_gallery1_images: [p4_gallery1_1, p4_gallery1_2, p4_gallery1_3, p4_gallery1_4], //slider
         property_gallery2_title: 'Designed with a focus on well-being',
         property_gallery2_images: [p4_gallery2_1, p4_gallery2_2], //slider
+        property_map: ''
+    },
+
+    5: {
+        slug: 'palmiera-2',
+        property_title: 'Palmiera 2 at The Oasis',
+        property_landing_images: [p5_landing1, p5_landing2, p5_landing3], //slider
+        property_logline: 'Splendid Living Amidst Nature',
+        property_intro: 'Palmiera 2 goes beyond traditional notions of home—it’s an ethereal embodiment of lifestyle, meticulously crafted for true luxury connoisseurs. Each new day brings with it a harmonious melody of nature’s finest sounds. Discover the enchanting trails of linear parks, unwind in the tranquil waters of swimmable lagoons, or challenge yourself in our state-of-the-art gymnasium. The Palmiera 2 villa community comes alive as the sun sets below the horizon. Evenings here are about social gatherings, the joy of sharing moments with neighbours who quickly become family, and the serenity of your personal sanctuary beneath the vast, starlit expanse.',
+        property_logo: p5_logo,
+        property_about1_title: 'The Perfect Setting',
+        property_about1_text: 'Palmiera 2 at The Oasis enjoys an enviable location that seamlessly connects you to the vibrant energy of Dubai. Situated within close proximity to major transportation routes, including Sheikh Zayed bin Hamdan Road (D54) and the future extension of Al Khail Road (E44), this prime location ensures easy access to the city’s bustling attractions while providing a tranquil escape from its fast-paced lifestyle. Whether you crave the excitement of urban life or seek solace in nature, Palmiera at The Oasis offers the best of both worlds.',
+        property_about1_image: p5_about1,
+        property_about2_title: 'A Haven of Relaxation and Beauty',
+        property_about2_text: 'Escape the hustle and bustle of the city and discover Palmiera 2 at The Oasis, a unique residential development that offers a tranquil oasis nestled amidst Dubai’s vibrant landscape. With its exclusive collection of opulent villas, Palmiera at The Oasis invites you to indulge in its luxurious tranquility where captivating natural surroundings merge seamlessly with exceptional design. Immerse yourself in a paradise of waterways, lagoons, and beaches, and find your personal retreat in this exclusive community.',
+        property_about2_image: p5_about2,
+        property_info_title: 'Palmiera 2 at The Oasis',
+        property_info_logline: 'The Project',
+        property_info_text: 'TThe Oasis by Emaar is Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks.This one-of-a-kind development, featuring harmonious architecture and outstanding design by the world’s most famous architects and designers, sets new standards for luxury living by the water.',
+        property_info_stat1: '4-Bedroom Villas',
+        property_info_stat2: 'Starting price 9.18 Mn AED',
+        property_info_stat3: '',
+        property_gallery1_title: 'Thoughtfully Designed Residences',
+        property_gallery1_images: [p5_gallery1_1, p5_gallery1_2, p5_gallery1_3, p5_gallery1_4], //slider
+        property_gallery2_title: 'Designed with a focus on well-being',
+        property_gallery2_images: [p5_gallery2_1, p5_gallery2_2], //slider
         property_map: ''
     }
 }
