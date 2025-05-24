@@ -54,7 +54,7 @@ import p3_gallery2_3 from '../assets/property/three/gallery2-3.jpg';
 import p3_gallery2_4 from '../assets/property/three/gallery2-4.jpg';
 
 // PROPERTY FOUR IMAGES
-import p4_landing1 from '../assets/property/four/landing1.jpeg';
+import p4_landing1 from '../assets/property/four/landing1.jpg';
 import p4_landing2 from '../assets/property/four/landing2.jpeg';
 import p4_landing3 from '../assets/property/four/landing3.jpeg';
 import p4_logo from '../assets/property/four/logo.jpg';
@@ -152,7 +152,7 @@ export const properties = {
     4: {
         slug: 'palmiera-3',
         property_title: 'Palmiera 3 at The Oasis',
-        property_landing_images: [p3_landing1, p3_landing2, p3_landing3, p3_landing4], //slider
+        property_landing_images: [p4_landing1, p4_landing2, p4_landing3], //slider
         property_logline: 'Splendid Living Amidst Nature',
         property_intro: 'Palmiera 3 goes beyond traditional notions of home—it’s an ethereal embodiment of lifestyle, meticulously crafted for true luxury connoisseurs. Each new day brings with it a harmonious melody of nature’s finest sounds. Discover the enchanting trails of linear parks, unwind in the tranquil waters of swimmable lagoons, or challenge yourself in our state-of-the-art gymnasium.',
         property_logo: p4_logo,
