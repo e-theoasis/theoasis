@@ -98,6 +98,21 @@ import p6_gallery2_3 from '../assets/property/six/gallery2-3.jpg';
 import p6_gallery2_4 from '../assets/property/six/gallery2-4.jpg';
 import p6_gallery2_5 from '../assets/property/six/gallery2-5.jpg';
 
+// PROPERTY SEVEN IMAGES
+import p7_landing1 from '../assets/property/seven/landing1.jpeg';
+import p7_landing2 from '../assets/property/seven/landing2.jpeg';
+import p7_landing3 from '../assets/property/seven/landing3.jpeg';
+import p7_landing4 from '../assets/property/seven/landing3.jpeg';
+import p7_landing5 from '../assets/property/seven/landing3.jpeg';
+import p7_logo from '../assets/property/seven/logo.jpg';
+import p7_about1 from '../assets/property/seven/about1.jpg';
+import p7_about2 from '../assets/property/seven/about2.jpg';
+import p7_gallery1_1 from '../assets/property/seven/gallery1-1.jpg';
+import p7_gallery1_2 from '../assets/property/seven/gallery1-2.jpg';
+import p7_gallery2_1 from '../assets/property/seven/gallery2-1.jpg';
+import p7_gallery2_2 from '../assets/property/seven/gallery2-2.jpg';
+
+
 export const properties = {
 
     // PROPERTY ONE DATA
@@ -154,6 +169,7 @@ export const properties = {
         property_map: ''
     },
 
+    // PROPERTY THREE DATA
     3: {
         slug: 'lavita-at-the-oasis',
         property_title: 'Lavita at The Oasis',
@@ -180,6 +196,7 @@ export const properties = {
         property_map: ''
     },
 
+    // PROPERTY FOUR DATA
     4: {
         slug: 'palmiera-3-at-the-oasis',
         property_title: 'Palmiera 3 at The Oasis',
@@ -206,6 +223,7 @@ export const properties = {
         property_map: ''
     },
 
+    // PROPERTY FIVE DATA
     5: {
         slug: 'palmiera-2-at-the-oasis',
         property_title: 'Palmiera 2 at The Oasis',
@@ -232,10 +250,11 @@ export const properties = {
         property_map: ''
     },
 
+    // PROPERTY SIX DATA
     6: {
         slug: 'mirage-at-the-oasis',
         property_title: 'Mirage at The Oasis',
-        property_landing_images: [p5_landing1, p5_landing2, p5_landing3], //slider
+        property_landing_images: [p6_landing1, p6_landing2, p6_landing3], //slider
         property_logline: 'A vision of luxurious serenity',
         property_intro: 'Step into the enchanting world of Mirage at The Oasis, a haven where luxury and nature exist in perfect harmony. A world of exceptional amenities awaits, turning daily life into an extraordinary experience. Homes that reflect serene elegance and sophistication, surrounded by the beauty of The Oasis.',
         property_logo: p6_logo,
@@ -255,6 +274,33 @@ export const properties = {
         property_gallery1_images: [p6_gallery1_1, p6_gallery1_2, p6_gallery1_3, p6_gallery1_4], //slider
         property_gallery2_title: 'Luxurious Living Redefined',
         property_gallery2_images: [p6_gallery2_1, p6_gallery2_2, p6_gallery2_3, p6_gallery2_4, p6_gallery2_5], //slider
+        property_map: ''
+    },
+
+    // PROPERTY SEVEN DATA
+    7: {
+        slug: 'palmiera-at-the-oasis',
+        property_title: 'Palmiera at The Oasis',
+        property_landing_images: [p7_landing1, p7_landing2, p7_landing3, p7_landing4, p7_landing5], //slider
+        property_logline: 'The Art of Exclusive Living',
+        property_intro: 'A picturesque landscape adorned with interconnected waterways, where gentle streams wind through the heart of the community, Palmiera at The Oasis presents a mesmerizing tapestry of water elements, creating an enchanting ambiance that captivates the senses. From the moment you step outside your villa, you’ll be greeted by the soothing sight and sound of flowing water, inviting you to relax and rejuvenate in the lap of nature.Embrace the serenity and grandeur of Palmiera at The Oasis, where luxury, nature, and connectivity intertwine in harmony.',
+        property_logo: p7_logo,
+        property_about1_title: 'The Perfect Setting',
+        property_about1_text: 'Palmiera at The Oasis enjoys an enviable location that seamlessly connects you to the vibrant energy of Dubai. Situated within close proximity to major transportation routes, including Sheikh Zayed bin Hamdan Road (D54) and the future extension of Al Khail Road (E44), this prime location ensures easy access to the city’s bustling attractions while providing a tranquil escape from its fast-paced lifestyle. Whether you crave the excitement of urban life or seek solace in nature, Palmiera at The Oasis offers the best of both worlds.',
+        property_about1_image: p7_about1,
+        property_about2_title: 'A Haven of Relaxation and Beauty',
+        property_about2_text: 'Escape the hustle and bustle of the city and discover Palmiera at The Oasis, a unique residential development that offers a tranquil oasis nestled amidst Dubai’s vibrant landscape. With its exclusive collection of opulent villas, Palmiera at The Oasis invites you to indulge in its luxurious tranquility where captivating natural surroundings merge seamlessly with exceptional design. Immerse yourself in a paradise of waterways, lagoons, and beaches, and find your personal retreat in this exclusive community.',
+        property_about2_image: p7_about2,
+        property_info_title: 'Palmiera at The Oasis',
+        property_info_logline: 'The Project',
+        property_info_text: 'Unveiling a realm of grandeur, The Oasis by Emaar stands as Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square meters) of awe-inspiring magnificence. A sanctuary of opulence, this monumental endeavour encompasses over 7,000 residences, with a resolute focus on majestic super-mansions, mansions and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, shimmering lakes, and verdant parks.Blending harmonious architecture and outstanding design brought to you by the world’s most famous architects and designers, this unique development sets new standards for luxury living by the water.',
+        property_info_stat1: '4 & 5-Bedroom Villas',
+        property_info_stat2: 'Starting price 8.5M AED',
+        property_info_stat3: '',
+        property_gallery1_title: 'Thoughtfully Designed Residences',
+        property_gallery1_images: [p7_gallery1_1, p7_gallery1_2], //slider
+        property_gallery2_title: 'Designed with a focus on well-being',
+        property_gallery2_images: [p7_gallery2_1, p7_gallery2_2], //slider
         property_map: ''
     }
 }
