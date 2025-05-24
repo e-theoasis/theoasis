@@ -1,6 +1,6 @@
 import React from 'react';
 import './PropertyPage.css';
-import { properties } from '../../data/property';
+import { properties } from '../../data/properties';
 
 const PropertyPage =() => {
 
