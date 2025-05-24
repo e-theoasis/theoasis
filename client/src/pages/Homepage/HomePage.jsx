@@ -13,8 +13,6 @@ const HomePage = () => {
           </Link>
         ))}
       </div>
-
-      <ContactForm />
     </div>
   );
 };
