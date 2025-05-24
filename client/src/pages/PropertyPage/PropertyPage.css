@@ -1,4 +1,6 @@
 .landing-section {
+    margin: 40px;
+    text-align: center;
     min-height: 100vh;
 }
 .property-name h1 {
@@ -8,7 +10,7 @@
 .slider-wrapper {
     position: relative;
     max-width: 48rem;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .slider {
     display: flex;
