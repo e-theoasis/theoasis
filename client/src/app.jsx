@@ -10,10 +10,7 @@ export function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar />
-        <HomePage path="/" />
-        <ContactForm />
-        <Footer />
+        <PropertyPage path="/" />
       </Router>
     </div>
   );
