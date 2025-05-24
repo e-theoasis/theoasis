@@ -31,13 +31,13 @@
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.03);
 }
 
-.left {
+.contact-form-box .left {
     height: 100%;
     background: url('/home-images/home-image.jpg') no-repeat center;
     background-size: cover;
 }
 
-.right {
+.contact-form-box .right {
     padding: 25px 40px;
     border: 1px solid #f8f8f8;
     border-left: 0px;
