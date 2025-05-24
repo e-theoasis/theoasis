@@ -53,6 +53,20 @@ import p3_gallery2_2 from '../assets/property/three/gallery2-2.jpg';
 import p3_gallery2_3 from '../assets/property/three/gallery2-3.jpg';
 import p3_gallery2_4 from '../assets/property/three/gallery2-4.jpg';
 
+// PROPERTY FOUR IMAGES
+import p4_landing1 from '../assets/property/four/landing1.jpeg';
+import p4_landing2 from '../assets/property/four/landing2.jpeg';
+import p4_landing3 from '../assets/property/four/landing3.jpeg';
+import p4_logo from '../assets/property/four/logo.jpg';
+import p4_about1 from '../assets/property/four/about1.jpg';
+import p4_about2 from '../assets/property/four/about2.jpg';
+import p4_gallery1_1 from '../assets/property/four/gallery1-1.jpg';
+import p4_gallery1_2 from '../assets/property/four/gallery1-2.jpg';
+import p4_gallery1_3 from '../assets/property/four/gallery1-3.jpg';
+import p4_gallery1_4 from '../assets/property/four/gallery1-4.jpg';
+import p4_gallery2_1 from '../assets/property/four/gallery2-1.jpg';
+import p4_gallery2_2 from '../assets/property/four/gallery2-2.jpg';
+
 export const properties = {
 
     // PROPERTY ONE DATA
@@ -124,7 +138,7 @@ export const properties = {
         property_about2_image: p3_about2,
         property_info_title: 'Lavita at The Oasis',
         property_info_logline: 'The Project',
-        property_info_text: 'The Oasis by Emaar is Dubais colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks This one-of-a-kind development, featuring harmonious architecture and outstanding design by the worlds most famous architects and designers, sets new standards for luxury living by the water.',
+        property_info_text: 'The Oasis by Emaar is Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks. This one-of-a-kind development, featuring harmonious architecture and outstanding design by the world’s most famous architects and designers, sets new standards for luxury living by the water.',
         property_info_stat1: '6-Bedroom Mansions',
         property_info_stat2: '7-Bedroom Mansions',
         property_info_stat3: 'Starting price 36M AED',
@@ -132,6 +146,32 @@ export const properties = {
         property_gallery1_images: [p3_gallery1_1, p3_gallery1_2, p3_gallery1_3, p3_gallery1_4, p3_gallery1_5], //slider
         property_gallery2_title: 'Expansive Living',
         property_gallery2_images: [p3_gallery2_1, p3_gallery2_2, p3_gallery2_3, p3_gallery2_4], //slider
+        property_map: ''
+    },
+
+    4: {
+        slug: 'palmiera-3',
+        property_title: 'Palmiera 3 at The Oasis',
+        property_landing_images: [p3_landing1, p3_landing2, p3_landing3, p3_landing4], //slider
+        property_logline: 'Splendid Living Amidst Nature',
+        property_intro: 'Palmiera 3 goes beyond traditional notions of home—it’s an ethereal embodiment of lifestyle, meticulously crafted for true luxury connoisseurs. Each new day brings with it a harmonious melody of nature’s finest sounds. Discover the enchanting trails of linear parks, unwind in the tranquil waters of swimmable lagoons, or challenge yourself in our state-of-the-art gymnasium.',
+        property_logo: p4_logo,
+        property_about1_title: 'The Perfect Setting',
+        property_about1_text: 'Palmiera 3 at The Oasis enjoys an enviable location that seamlessly connects you to the vibrant energy of Dubai. Situated within close proximity to major transportation routes, including Sheikh Zayed bin Hamdan Road (D54) and the future extension of Al Khail Road (E44), this prime location ensures easy access to the city’s bustling attractions while providing a tranquil escape from its fast-paced lifestyle. Whether you crave the excitement of urban life or seek solace in nature, Palmiera at The Oasis offers the best of both worlds.',
+        property_about1_image: p4_about1,
+        property_about2_title: 'A Haven of Relaxation and Beauty',
+        property_about2_text: 'Escape the hustle and bustle of the city and discover Palmiera 3 at The Oasis, a unique residential development that offers a tranquil oasis nestled amidst Dubai’s vibrant landscape. With its exclusive collection of opulent villas, Palmiera 3 at The Oasis invites you to indulge in its luxurious tranquility where captivating natural surroundings merge seamlessly with exceptional design.',
+        property_about2_image: p4_about2,
+        property_info_title: 'Palmiera 3 at The Oasis',
+        property_info_logline: 'The Project',
+        property_info_text: 'TThe Oasis by Emaar is Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks.This one-of-a-kind development, featuring harmonious architecture and outstanding design by the world’s most famous architects and designers, sets new standards for luxury living by the water.',
+        property_info_stat1: '4-Bedroom Villas',
+        property_info_stat2: 'Starting price 9.18 Mn AED',
+        property_info_stat3: '',
+        property_gallery1_title: 'Thoughtfully Designed Residences',
+        property_gallery1_images: [p4_gallery1_1, p4_gallery1_2, p4_gallery1_3, p4_gallery1_4], //slider
+        property_gallery2_title: 'Designed with a focus on well-being',
+        property_gallery2_images: [p4_gallery2_1, p4_gallery2_2], //slider
         property_map: ''
     }
 }
