@@ -1,20 +1,21 @@
 .landing-section {
-    margin: 40px;
+    margin: 40px 20px;
     text-align: center;
     min-height: 100vh;
 }
 .property-name h1 {
-    font-size: 40px;
+    font-size: 35px;
+    font-family: 'Optima Light', sans-serif;
 }
 
 .slider-wrapper {
     position: relative;
     max-width: 48rem;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 .slider {
     display: flex;
-    aspect-ratio: 20 / 9;
+    aspect-ratio: 25 / 15;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
