@@ -31,7 +31,16 @@ const PropertyPage =({slug}) => {
                         </div>
                         <div className="slider-nav">
                             {property.property_landing_images.map((_, index) => (
-                                <a href={`#slide-${index + 1}`} key={index}></a>
+                                <a
+                                key={index}
+                                href={`#`}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    const slide = document.getElementById(`slide-${index + 1}`);
+                                    if (slide) {
+                                    slide.scrollIntoView({ behavior: 'smooth', inline: 'start' });
+                                    }
+                                }}></a>
                             ))}
                         </div>
                     </div>

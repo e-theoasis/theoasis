@@ -1,3 +1,10 @@
+.landing-section {
+    min-height: 100vh;
+}
+.property-name h1 {
+    font-size: 40px;
+}
+
 .slider-wrapper {
     position: relative;
     max-width: 48rem;
@@ -5,7 +12,7 @@
 }
 .slider {
     display: flex;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 20 / 9;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
