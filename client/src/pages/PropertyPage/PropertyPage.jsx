@@ -1,10 +1,13 @@
-import React from 'react';
+import { h } from 'preact';
+import { useEffect } from 'preact/hooks';
 import './PropertyPage.css';
 import { properties } from '../../data/properties';
 
-const PropertyPage =() => {
+const PropertyPage =({slug}) => {
 
-    const property = properties[1]
+    const property = Object.values(properties).find (
+        (p) => p.slug === slug
+    );
 
     return (
         <div className="property-body">
