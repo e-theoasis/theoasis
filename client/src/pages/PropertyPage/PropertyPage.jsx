@@ -47,10 +47,31 @@ const PropertyPage =({slug}) => {
                 </div>
             </div>
 
+            <div className="about-property">
+                
+            </div>
             <div className="intro-section">
+                <div className="intro-text">
+                    <h3>{property.property_logline}</h3>
+                    <p>{property.property_intro}</p>
+                </div>
+                <div className="intro-image">
+                    <img src={property.property_logo} alt="Property Logo" />
+                    <button>Register Interest</button>
+                </div>
             </div>
 
             <div className="about-section">
+                <div className="right">
+                    <h3>{property.property_about1_title}</h3>
+                    <p>{property.property_about1_text}</p>
+                    <img src={property.property_about1_image} alt="" />
+                </div>
+                <div className="left">
+                    <h3>{property.property_about2_title}</h3>
+                    <p>{property.property_about2_text}</p>
+                    <img src={property.property_about2_image} alt="" />
+                </div>
             </div>
 
             <div className="info-section">
