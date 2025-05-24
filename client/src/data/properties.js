@@ -35,6 +35,24 @@ import p2_gallery2_2 from '../assets/property/two/gallery2-2.jpg';
 import p2_gallery2_3 from '../assets/property/two/gallery2-3.jpg';
 import p2_gallery2_4 from '../assets/property/two/gallery2-4.jpg';
 
+// PROPERTY THREE IMAGES
+import p3_landing1 from '../assets/property/three/landing1.jpeg';
+import p3_landing2 from '../assets/property/three/landing2.jpeg';
+import p3_landing3 from '../assets/property/three/landing3.jpeg';
+import p3_landing4 from '../assets/property/three/landing4.jpeg';
+import p3_logo from '../assets/property/three/logo.jpg';
+import p3_about1 from '../assets/property/three/about1.jpg';
+import p3_about2 from '../assets/property/three/about2.jpg';
+import p3_gallery1_1 from '../assets/property/three/gallery1-1.jpg';
+import p3_gallery1_2 from '../assets/property/three/gallery1-2.jpg';
+import p3_gallery1_3 from '../assets/property/three/gallery1-3.jpg';
+import p3_gallery1_4 from '../assets/property/three/gallery1-4.jpg';
+import p3_gallery1_5 from '../assets/property/three/gallery1-5.jpg';
+import p3_gallery2_1 from '../assets/property/three/gallery2-1.jpg';
+import p3_gallery2_2 from '../assets/property/three/gallery2-2.jpg';
+import p3_gallery2_3 from '../assets/property/three/gallery2-3.jpg';
+import p3_gallery2_4 from '../assets/property/three/gallery2-4.jpg';
+
 export const properties = {
 
     // PROPERTY ONE DATA
@@ -71,7 +89,7 @@ export const properties = {
         property_landing_images: [p2_landing1, p2_landing2, p2_landing3, p2_landing4, p2_landing5], //slider
         property_logline: 'Luxe Living, Waterfront Retreat',
         property_intro: 'Address Villas – Tierra is an exclusive collection of branded residences, where crystal-clear waters and vibrant greenery surround you, evoking a resort-style way of life. This blissful community offers sweeping waterfront views, light-filled spaces, and seamless access to nature. Embrace the beauty of waterside living, where each moment is designed for relaxation and rejuvenation.',
-        property_logo: p1_logo,
+        property_logo: p2_logo,
         property_about1_title: 'Balance Begins here',
         property_about1_text: 'Escape the ordinary and step into a world of wellness at Address Villas – Tierra. Enveloped by soothing waterscapes and blooming greenery, this is where your mind finds stillness, and your spirit recharges. Whether you seek to unwind through a relaxing walk, reflective meditation, or moments of quiet by the water, every day offers a new way to nurture your well-being.',
         property_about1_image: p2_about1,
@@ -88,6 +106,32 @@ export const properties = {
         property_gallery1_images: [p2_gallery1_1, p2_gallery1_2, p2_gallery1_3, p2_gallery1_4, p2_gallery1_5], //slider
         property_gallery2_title: 'Elegance in Every Wave, Calm in Every Detail',
         property_gallery2_images: [p2_gallery2_1, p2_gallery2_2, p2_gallery2_3, p2_gallery2_4], //slider
+        property_map: ''
+    },
+
+    3: {
+        slug: 'lavita',
+        property_title: 'Lavita at The Oasis',
+        property_landing_images: [p3_landing1, p3_landing2, p3_landing3, p3_landing4], //slider
+        property_logline: 'The Art of Gracious Living',
+        property_intro: 'At Lavita, luxury and serenity intertwine to create a lifestyle of distinction. Set within The Oasis, this enclave of 43 masterfully designed mansions offers a retreat from the ordinary. Here, the gentle flow of waterways and the lush greenery create a sanctuary where each moment is an invitation to relax and rejuvenate.',
+        property_logo: p3_logo,
+        property_about1_title: 'The Perfect Setting',
+        property_about1_text: 'Lavita at The Oasis enjoys an enviable location that seamlessly connects you to the vibrant energy of Dubai. Situated within close proximity to major transportation routes, including Sheikh Zayed bin Hamdan Road (D54) and the future extension of Al Khail Road (E44), this prime location ensures easy access to the city’s bustling attractions while providing a tranquil escape from its fast-paced lifestyle. Whether you crave the excitement of urban life or seek solace in nature, Lavita at The Oasis offers the best of both worlds.',
+        property_about1_image: p3_about1,
+        property_about2_title: 'Your Secluded Sanctuary Awaits',
+        property_about2_text: 'Lavita is a place where privacy meets connection, providing a peaceful retreat just moments from Dubai’s premier attractions. Whether you’re enjoying a round of golf, exploring luxury boutiques, or experiencing the cultural richness of Downtown Dubai, Lavita ensures you’re at the heart of it all, with a serene sanctuary to return to.',
+        property_about2_image: p3_about2,
+        property_info_title: 'Lavita at The Oasis',
+        property_info_logline: 'The Project',
+        property_info_text: 'The Oasis by Emaar is Dubais colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks This one-of-a-kind development, featuring harmonious architecture and outstanding design by the worlds most famous architects and designers, sets new standards for luxury living by the water.',
+        property_info_stat1: '6-Bedroom Mansions',
+        property_info_stat2: '7-Bedroom Mansions',
+        property_info_stat3: 'Starting price 36M AED',
+        property_gallery1_title: 'Inspiring Mastery',
+        property_gallery1_images: [p3_gallery1_1, p3_gallery1_2, p3_gallery1_3, p3_gallery1_4, p3_gallery1_5], //slider
+        property_gallery2_title: 'Expansive Living',
+        property_gallery2_images: [p3_gallery2_1, p3_gallery2_2, p3_gallery2_3, p3_gallery2_4], //slider
         property_map: ''
     }
 }
