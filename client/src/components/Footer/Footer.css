@@ -1,0 +1,151 @@
+footer{
+    font-family: 'Optima Regular', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: #48484f;
+    padding: 4%;
+    color: #F8F8F8;
+    h5{
+        font-size: 16px;
+    }
+
+    .one, .two, .three {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .socials{
+        list-style: none;
+        cursor: pointer;
+        li{
+            padding: 0px 10px 0px 0px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            background-color: #F8F8F8;
+        }
+    }
+    .links{
+        list-style: none;
+        cursor: pointer;
+        li{
+            display: block;
+            padding: 3px 0;
+        }
+        a{
+            text-decoration: underline;
+            color: #F8F8F8;
+        }
+    }
+    input{
+        width: 220px;
+        padding: 9px;
+        border: 1px solid black;
+        border-right: none;
+    }
+    button{
+        color: black;
+        background-color: #F8F8F8;
+        cursor: pointer;
+        border: none;
+        height: 33px;
+    }
+}
+.copyright {
+    padding: 20px;
+    text-align: center;
+    color: #F8F8F8;
+    background-color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+footer{
+        h5{
+            font-size: 14px;
+        }
+        li{
+            font-size: 14px;
+        }
+        .socials{
+            img{
+                max-width: 20px;
+                height: 20px;
+            }
+        }
+        input{
+            width: 200px;
+            padding: 11px;
+        }
+        button {
+            height: 36px;
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+
+        .one, .two, .three {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        }   
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h5{
+            font-size: 16px;
+        }
+        .socials{
+            cursor: pointer;
+            li{
+                padding: 6px;
+            }
+            img{
+                max-width: 30px;
+                height: 30px;
+            }
+        }
+
+        .links{
+            list-style: none;
+            cursor: pointer;
+            li{
+                text-align: center;
+                display: block;
+                padding: 4px 0;
+            }
+            a{
+                text-decoration: underline;
+                color: #F8F8F8;
+            }
+        }
+        input{
+            padding: 9px 30px;
+            border: 1px solid black;
+            border-right: none;
+        }
+        button{
+            padding: 9px 25px;
+            color: black;
+            cursor: pointer;
+        }
+    }
+}
