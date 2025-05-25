@@ -120,6 +120,7 @@ export const properties = {
         slug: 'palace-villas-ostra-at-the-oasis',
         property_title: 'Palace Villas – Ostra at The Oasis',
         property_landing_images: [p1_landing1, p1_landing2, p1_landing3, p1_landing4], //slider
+        property_beds: '4 - 6', 
         property_logline: 'Ultimate Exclusive Waterfront Escape',
         property_intro: 'Welcome to Palace Villas – Ostra, an exclusive collection of waterfront homes within the Palace-branded community in The Oasis. Designed for those who seek a life shaped by luxury, calm, and connection to nature. Set along quiet shores and framed by pristine waters and verdant landscapes, each villa is a private retreat — where elegant architecture meets open, light-filled interiors.',
         property_logo: p1_logo,
@@ -147,6 +148,7 @@ export const properties = {
         slug: 'address-villas-tierra',
         property_title: 'Address Villas – Tierra',
         property_landing_images: [p2_landing1, p2_landing2, p2_landing3, p2_landing4, p2_landing5], //slider
+        property_beds: '4 - 6',
         property_logline: 'Luxe Living, Waterfront Retreat',
         property_intro: 'Address Villas – Tierra is an exclusive collection of branded residences, where crystal-clear waters and vibrant greenery surround you, evoking a resort-style way of life. This blissful community offers sweeping waterfront views, light-filled spaces, and seamless access to nature. Embrace the beauty of waterside living, where each moment is designed for relaxation and rejuvenation.',
         property_logo: p2_logo,
@@ -174,6 +176,7 @@ export const properties = {
         slug: 'lavita-at-the-oasis',
         property_title: 'Lavita at The Oasis',
         property_landing_images: [p3_landing1, p3_landing2, p3_landing3, p3_landing4], //slider
+        property_beds: '6 - 7',
         property_logline: 'The Art of Gracious Living',
         property_intro: 'At Lavita, luxury and serenity intertwine to create a lifestyle of distinction. Set within The Oasis, this enclave of 43 masterfully designed mansions offers a retreat from the ordinary. Here, the gentle flow of waterways and the lush greenery create a sanctuary where each moment is an invitation to relax and rejuvenate.',
         property_logo: p3_logo,
@@ -201,6 +204,7 @@ export const properties = {
         slug: 'palmiera-3-at-the-oasis',
         property_title: 'Palmiera 3 at The Oasis',
         property_landing_images: [p4_landing1, p4_landing2, p4_landing3], //slider
+        property_beds: '4',
         property_logline: 'Splendid Living Amidst Nature',
         property_intro: 'Palmiera 3 goes beyond traditional notions of home—it’s an ethereal embodiment of lifestyle, meticulously crafted for true luxury connoisseurs. Each new day brings with it a harmonious melody of nature’s finest sounds. Discover the enchanting trails of linear parks, unwind in the tranquil waters of swimmable lagoons, or challenge yourself in our state-of-the-art gymnasium.',
         property_logo: p4_logo,
@@ -228,6 +232,7 @@ export const properties = {
         slug: 'palmiera-2-at-the-oasis',
         property_title: 'Palmiera 2 at The Oasis',
         property_landing_images: [p5_landing1, p5_landing2, p5_landing3], //slider
+        property_beds: '4',
         property_logline: 'Splendid Living Amidst Nature',
         property_intro: 'Palmiera 2 goes beyond traditional notions of home—it’s an ethereal embodiment of lifestyle, meticulously crafted for true luxury connoisseurs. Each new day brings with it a harmonious melody of nature’s finest sounds. Discover the enchanting trails of linear parks, unwind in the tranquil waters of swimmable lagoons, or challenge yourself in our state-of-the-art gymnasium. The Palmiera 2 villa community comes alive as the sun sets below the horizon. Evenings here are about social gatherings, the joy of sharing moments with neighbours who quickly become family, and the serenity of your personal sanctuary beneath the vast, starlit expanse.',
         property_logo: p5_logo,
@@ -255,6 +260,7 @@ export const properties = {
         slug: 'mirage-at-the-oasis',
         property_title: 'Mirage at The Oasis',
         property_landing_images: [p6_landing1, p6_landing2, p6_landing3], //slider
+        property_beds: '5 - 6',
         property_logline: 'A vision of luxurious serenity',
         property_intro: 'Step into the enchanting world of Mirage at The Oasis, a haven where luxury and nature exist in perfect harmony. A world of exceptional amenities awaits, turning daily life into an extraordinary experience. Homes that reflect serene elegance and sophistication, surrounded by the beauty of The Oasis.',
         property_logo: p6_logo,
@@ -282,6 +288,7 @@ export const properties = {
         slug: 'palmiera-at-the-oasis',
         property_title: 'Palmiera at The Oasis',
         property_landing_images: [p7_landing1, p7_landing2, p7_landing3, p7_landing4, p7_landing5], //slider
+        property_beds: '4 - 5',
         property_logline: 'The Art of Exclusive Living',
         property_intro: 'A picturesque landscape adorned with interconnected waterways, where gentle streams wind through the heart of the community, Palmiera at The Oasis presents a mesmerizing tapestry of water elements, creating an enchanting ambiance that captivates the senses. From the moment you step outside your villa, you’ll be greeted by the soothing sight and sound of flowing water, inviting you to relax and rejuvenate in the lap of nature.Embrace the serenity and grandeur of Palmiera at The Oasis, where luxury, nature, and connectivity intertwine in harmony.',
         property_logo: p7_logo,
