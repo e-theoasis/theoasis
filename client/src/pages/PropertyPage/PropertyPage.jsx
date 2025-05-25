@@ -5,13 +5,16 @@ import { properties } from '../../data/properties';
 
 const PropertyPage =({slug}) => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0); // scroll to top on mount
+    }, []);
+    
     const property = Object.values(properties).find (
         (p) => p.slug === slug
     );
 
     return (
         <div className="property-body">
-
             {/* heading + slider */}
             <div className="landing-section">
                 {/* heading */}
@@ -35,7 +38,6 @@ const PropertyPage =({slug}) => {
                                 key={index}
                                 href={`#`}
                                 onClick={(e) => {
-                                    e.preventDefault();
                                     const slide = document.getElementById(`slide-${index + 1}`);
                                     if (slide) {
                                     slide.scrollIntoView({ behavior: 'smooth', inline: 'start' });
