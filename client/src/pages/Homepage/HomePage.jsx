@@ -1,8 +1,12 @@
+import './HomePage.css';
+import NavBar from '../../components/NavBar/NavBar';
+import ContactForm from '../../components/ContactForm/ContactForm';
+import Footer from '../../components/Footer/Footer';
+
 import { useEffect, useRef } from 'react';
 import { Link } from 'preact-router'; //
 import { properties } from '../../data/properties';
 import { FAQs } from '../../data/faqs';
-import './HomePage.css';
 import { useState } from 'preact/hooks';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,7 +17,6 @@ import amenity1 from '../../../public/home-images/area.png';
 import amenity2 from '../../../public/home-images/villas.png';
 import amenity3 from '../../../public/home-images/spaces.png';
 import amenity4 from '../../../public/home-images/golf.png';
-import bedIcon from '../../../public/home-images/whiteBed.png';
 import community1 from '../../../public/home-images/arabiaRanches.jpg';
 import community2 from '../../../public/home-images/arabianRanches3.jpg';
 import community3 from '../../../public/home-images/marina.jpg';
@@ -55,6 +58,7 @@ const HomePage = () => {
 
   return (
     <div className="home-body">
+
       {/* introductory section */}
         <section id="landing">
             <div id="landingText">
@@ -72,7 +76,7 @@ const HomePage = () => {
                   relaxation. Unwind in style amidst meticulously crafted interiors that inspire and invigorate. Your journey to unparalleled
                   sophistication begins now at Emaar’s The Oasis. Welcome home to a lifestyle of effortless luxury and timeless charm.
               </p>
-              <button className="btn">REGISTER INTEREST</button>
+              <button className="btn"><a href="#contactform">REGISTER INTEREST</a></button>
           </section>
           {/* Amenities section */}
           <section id="amenities">  
@@ -186,21 +190,18 @@ const HomePage = () => {
         <h2>LOCATION</h2>
         <img src={location} alt=""/>
         <section id="steps">
-                <div className='stat'>
+                <div className='stat border'>
                     <h5>18</h5>
                     <p>Minutes to Al Maktoum International Airport</p>
                 </div>
-                <div id="separator"></div>
-                <div className='stat'>
+                <div className='stat border'>
                     <h5>20</h5>
                     <p>Minutes to Dubai Hills Estate, Dubai Hills Mall & Dubai Hills Golf Course</p>
                 </div>
-                <div id="separator"></div>
-                <div className='stat'>
+                <div className='stat border'>
                     <h5>28</h5>
                     <p>Minutes to Dubai Marina & Dubai Marina Mall</p>
                 </div>
-                <div id="separator"></div>
                 <div className='stat'>
                     <h5>35</h5>
                     <p>Minutes to Downtown Dubai & Dubai Mall</p>
@@ -240,7 +241,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
     </div>
   );
 };
