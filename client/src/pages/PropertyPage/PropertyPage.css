@@ -184,7 +184,6 @@ p {
 
 .gallery-section {
     padding: 4rem 6.5rem 2rem;
-    background-color: #fafafa;
 }
 
 .gallery-header {
@@ -212,6 +211,7 @@ p {
     gap: 1rem;
     scroll-behavior: smooth;
     padding: 0.5rem;
+    justify-content: center;
 }
 
 .image-slider img {
