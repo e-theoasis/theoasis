@@ -113,9 +113,9 @@ import p7_gallery2_1 from '../assets/property/seven/gallery2-1.jpg';
 import p7_gallery2_2 from '../assets/property/seven/gallery2-2.jpg';
 
 // ICONS
-import stat1_icon from '../assets/icons/stat1.png'; 
-import stat2_icon from '../assets/icons/stat2.png';
-import stat3_icon from '../assets/icons/stat3.png';
+import stat1_icon from '../assets/icons/stat-icon-1.png'; 
+import stat2_icon from '../assets/icons/stat-icon-2.png';
+import stat3_icon from '../assets/icons/stat-icon-3.png';
 
 
 export const properties = {
