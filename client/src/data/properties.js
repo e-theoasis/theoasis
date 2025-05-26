@@ -102,8 +102,8 @@ import p6_gallery2_5 from '../assets/property/six/gallery2-5.jpg';
 import p7_landing1 from '../assets/property/seven/landing1.jpeg';
 import p7_landing2 from '../assets/property/seven/landing2.jpeg';
 import p7_landing3 from '../assets/property/seven/landing3.jpeg';
-import p7_landing4 from '../assets/property/seven/landing3.jpeg';
-import p7_landing5 from '../assets/property/seven/landing3.jpeg';
+import p7_landing4 from '../assets/property/seven/landing4.jpeg';
+import p7_landing5 from '../assets/property/seven/landing5.jpeg';
 import p7_logo from '../assets/property/seven/logo.jpg';
 import p7_about1 from '../assets/property/seven/about1.jpg';
 import p7_about2 from '../assets/property/seven/about2.jpg';
@@ -147,7 +147,7 @@ export const properties = {
     2: {
         slug: 'address-villas-tierra',
         property_title: 'Address Villas – Tierra',
-        property_landing_images: [p2_landing1, p2_landing2, p2_landing3, p2_landing4, p2_landing5], //slider
+        property_landing_images: [p2_landing3, p2_landing2, p2_landing1, p2_landing4, p2_landing5], //slider
         property_beds: '4 - 6',
         property_logline: 'Luxe Living, Waterfront Retreat',
         property_intro: 'Address Villas – Tierra is an exclusive collection of branded residences, where crystal-clear waters and vibrant greenery surround you, evoking a resort-style way of life. This blissful community offers sweeping waterfront views, light-filled spaces, and seamless access to nature. Embrace the beauty of waterside living, where each moment is designed for relaxation and rejuvenation.',
@@ -203,7 +203,7 @@ export const properties = {
     4: {
         slug: 'palmiera-3-at-the-oasis',
         property_title: 'Palmiera 3 at The Oasis',
-        property_landing_images: [p4_landing1, p4_landing2, p4_landing3], //slider
+        property_landing_images: [p4_landing2, p4_landing1, p4_landing3], //slider
         property_beds: '4',
         property_logline: 'Splendid Living Amidst Nature',
         property_intro: 'Palmiera 3 goes beyond traditional notions of home—it’s an ethereal embodiment of lifestyle, meticulously crafted for true luxury connoisseurs. Each new day brings with it a harmonious melody of nature’s finest sounds. Discover the enchanting trails of linear parks, unwind in the tranquil waters of swimmable lagoons, or challenge yourself in our state-of-the-art gymnasium.',
@@ -287,7 +287,7 @@ export const properties = {
     7: {
         slug: 'palmiera-at-the-oasis',
         property_title: 'Palmiera at The Oasis',
-        property_landing_images: [p7_landing1, p7_landing2, p7_landing3, p7_landing4, p7_landing5], //slider
+        property_landing_images: [p7_landing5, p7_landing2, p7_landing3, p7_landing4, p7_landing1], //slider
         property_beds: '4 - 5',
         property_logline: 'The Art of Exclusive Living',
         property_intro: 'A picturesque landscape adorned with interconnected waterways, where gentle streams wind through the heart of the community, Palmiera at The Oasis presents a mesmerizing tapestry of water elements, creating an enchanting ambiance that captivates the senses. From the moment you step outside your villa, you’ll be greeted by the soothing sight and sound of flowing water, inviting you to relax and rejuvenate in the lap of nature.Embrace the serenity and grandeur of Palmiera at The Oasis, where luxury, nature, and connectivity intertwine in harmony.',
