@@ -112,6 +112,11 @@ import p7_gallery1_2 from '../assets/property/seven/gallery1-2.jpg';
 import p7_gallery2_1 from '../assets/property/seven/gallery2-1.jpg';
 import p7_gallery2_2 from '../assets/property/seven/gallery2-2.jpg';
 
+// ICONS
+import stat1_icon from '../assets/icons/stat-icon-1.png'; 
+import stat2_icon from '../assets/icons/stat-icon-2.png';
+import stat3_icon from '../assets/icons/stat-icon-3.png';
+
 
 export const properties = {
 
@@ -133,14 +138,16 @@ export const properties = {
         property_info_title: 'Your Exclusive Waterfront Sanctuary',
         property_info_logline: 'Elegance in Every Wave',
         property_info_text: 'A rare waterfront sanctuary where elegance flows as effortlessly as the tides. Palace Villas – Ostra reimagines luxury living with contemporary villas shaped by nature — framed by water, wrapped in greenery, and filled with light. A place where every day begins in beauty and ends in calm.',
+        property_icon_stat1: stat1_icon,
         property_info_stat1: '4 to 6-bedroom villas',
+        property_icon_stat2: stat3_icon,
         property_info_stat2: 'Starting Price 13.13 Mn AED',
+        property_icon_stat3: '',
         property_info_stat3: '',
         property_gallery1_title: 'Sculpted by Water, Shaped by Nature',
         property_gallery1_images: [p1_gallery1_1, p1_gallery1_2, p1_gallery1_3, p1_gallery1_4, p1_gallery1_5, p1_gallery1_6], //slider
         property_gallery2_title: 'Crafted for the Visionaries',
         property_gallery2_images: [p1_gallery2_1, p1_gallery2_2, p1_gallery2_3], //slider
-        property_map: ''
     },
 
     // PROPERTY TWO DATA
@@ -161,14 +168,16 @@ export const properties = {
         property_info_title: 'The Oasis of Tomorrow',
         property_info_logline: 'Address Villas – Tierra',
         property_info_text: 'Every curve, corner, and corridor is thoughtfully crafted to inspire. At Tierra, light, water, and landscape converge in perfect harmony, shaping a sensory retreat that calms the mind and restores the soul—a private world designed for pause, peace, and perfect stillness.',
+        property_icon_stat1: stat1_icon,
         property_info_stat1: '4 to 6-bedroom villas',
+        property_icon_stat2: stat2_icon,
         property_info_stat2: 'Swimmable Lagoon',
+        property_icon_stat3: stat3_icon,
         property_info_stat3: 'Starting Price 13.16 MN AED',
         property_gallery1_title: 'Harmonizing Spaces, Water Inspired',
         property_gallery1_images: [p2_gallery1_1, p2_gallery1_2, p2_gallery1_3, p2_gallery1_4, p2_gallery1_5], //slider
         property_gallery2_title: 'Elegance in Every Wave, Calm in Every Detail',
         property_gallery2_images: [p2_gallery2_1, p2_gallery2_2, p2_gallery2_3, p2_gallery2_4], //slider
-        property_map: ''
     },
 
     // PROPERTY THREE DATA
@@ -189,14 +198,16 @@ export const properties = {
         property_info_title: 'Lavita at The Oasis',
         property_info_logline: 'The Project',
         property_info_text: 'The Oasis by Emaar is Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks. This one-of-a-kind development, featuring harmonious architecture and outstanding design by the world’s most famous architects and designers, sets new standards for luxury living by the water.',
+        property_icon_stat1: stat1_icon,
         property_info_stat1: '6-Bedroom Mansions',
+        property_icon_stat2: stat2_icon,
         property_info_stat2: '7-Bedroom Mansions',
+        property_icon_stat3: stat3_icon,
         property_info_stat3: 'Starting price 36M AED',
         property_gallery1_title: 'Inspiring Mastery',
         property_gallery1_images: [p3_gallery1_1, p3_gallery1_2, p3_gallery1_3, p3_gallery1_4, p3_gallery1_5], //slider
         property_gallery2_title: 'Expansive Living',
         property_gallery2_images: [p3_gallery2_1, p3_gallery2_2, p3_gallery2_3, p3_gallery2_4], //slider
-        property_map: ''
     },
 
     // PROPERTY FOUR DATA
@@ -217,14 +228,16 @@ export const properties = {
         property_info_title: 'Palmiera 3 at The Oasis',
         property_info_logline: 'The Project',
         property_info_text: 'The Oasis by Emaar is Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks.This one-of-a-kind development, featuring harmonious architecture and outstanding design by the world’s most famous architects and designers, sets new standards for luxury living by the water.',
+        property_icon_stat1: stat1_icon,
         property_info_stat1: '4-Bedroom Villas',
+        property_icon_stat2: stat3_icon,
         property_info_stat2: 'Starting price 9.18 Mn AED',
+        property_icon_stat3: '',
         property_info_stat3: '',
         property_gallery1_title: 'Thoughtfully Designed Residences',
         property_gallery1_images: [p4_gallery1_1, p4_gallery1_2, p4_gallery1_3, p4_gallery1_4], //slider
         property_gallery2_title: 'Designed with a focus on well-being',
         property_gallery2_images: [p4_gallery2_1, p4_gallery2_2], //slider
-        property_map: ''
     },
 
     // PROPERTY FIVE DATA
@@ -245,14 +258,16 @@ export const properties = {
         property_info_title: 'Palmiera 2 at The Oasis',
         property_info_logline: 'The Project',
         property_info_text: 'The Oasis by Emaar is Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square metres) of breathtaking magnificence. This monumental endeavour, a sanctuary of opulence, encompasses over 7,000 residences, with a firm focus on majestic super-mansions, mansions, and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, glittering lakes, and verdant parks.This one-of-a-kind development, featuring harmonious architecture and outstanding design by the world’s most famous architects and designers, sets new standards for luxury living by the water.',
+        property_icon_stat1: stat1_icon,
         property_info_stat1: '4-Bedroom Villas',
+        property_icon_stat2: stat3_icon,
         property_info_stat2: 'Starting price 9.18 Mn AED',
+        property_icon_stat3: '',
         property_info_stat3: '',
         property_gallery1_title: 'Thoughtfully Designed Residences',
         property_gallery1_images: [p5_gallery1_1, p5_gallery1_2, p5_gallery1_3, p5_gallery1_4], //slider
         property_gallery2_title: 'Designed with a focus on well-being',
         property_gallery2_images: [p5_gallery2_1, p5_gallery2_2], //slider
-        property_map: ''
     },
 
     // PROPERTY SIX DATA
@@ -273,14 +288,16 @@ export const properties = {
         property_info_title: 'Mirage at The Oasis',
         property_info_logline: 'The Project',
         property_info_text: 'At Mirage, every home is meticulously designed to capture abundance of natural light, creating a seamless connection to the surrounding ambience. Cutting edge designs showcase the beauty of tranquil water canales and lively public areas, providing residents with the opportunity to indulge in awe-insipring landscapes right from the comfort of their homes.',
+        property_icon_stat1: stat1_icon,
         property_info_stat1: '5-Bedroom Villas',
+        property_icon_stat2: stat2_icon,
         property_info_stat2: '6-Bedroom Villas',
+        property_icon_stat3: stat3_icon,
         property_info_stat3: 'Starting price 15.8 Mn AED',
         property_gallery1_title: 'A Harmony of Design and Nature',
         property_gallery1_images: [p6_gallery1_1, p6_gallery1_2, p6_gallery1_3, p6_gallery1_4], //slider
         property_gallery2_title: 'Luxurious Living Redefined',
         property_gallery2_images: [p6_gallery2_1, p6_gallery2_2, p6_gallery2_3, p6_gallery2_4, p6_gallery2_5], //slider
-        property_map: ''
     },
 
     // PROPERTY SEVEN DATA
@@ -301,13 +318,15 @@ export const properties = {
         property_info_title: 'Palmiera at The Oasis',
         property_info_logline: 'The Project',
         property_info_text: 'Unveiling a realm of grandeur, The Oasis by Emaar stands as Dubai’s colossal masterpiece, spanning 100 million square feet (9.4 million square meters) of awe-inspiring magnificence. A sanctuary of opulence, this monumental endeavour encompasses over 7,000 residences, with a resolute focus on majestic super-mansions, mansions and sprawling villas that grace expansive plots, revealing panoramic vistas of tranquil water canals, shimmering lakes, and verdant parks.Blending harmonious architecture and outstanding design brought to you by the world’s most famous architects and designers, this unique development sets new standards for luxury living by the water.',
+        property_icon_stat1: stat1_icon,
         property_info_stat1: '4 & 5-Bedroom Villas',
+        property_icon_stat2: stat3_icon,
         property_info_stat2: 'Starting price 8.5M AED',
+        property_icon_stat3: stat2_icon,
         property_info_stat3: '',
         property_gallery1_title: 'Thoughtfully Designed Residences',
         property_gallery1_images: [p7_gallery1_1, p7_gallery1_2], //slider
         property_gallery2_title: 'Designed with a focus on well-being',
         property_gallery2_images: [p7_gallery2_1, p7_gallery2_2], //slider
-        property_map: ''
     }
 }
