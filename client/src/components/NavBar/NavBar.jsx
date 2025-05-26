@@ -1,11 +1,14 @@
 import React from 'react';
 import './NavBar.css';
+import { Link } from 'preact-router';
 
 const NavBar =() => {
     return (
         <div className="navbar-body">
             <header>
-                <h1 id="logo"><a href="#home-body">EMAAR</a></h1>
+                <Link href="/" className="logo">
+                    <h1 id="logo">EMAAR</h1>
+                </Link>
                 <nav>
                     <ul id="navbar">
                         <li><a href="#intro">ABOUT US</a></li>
