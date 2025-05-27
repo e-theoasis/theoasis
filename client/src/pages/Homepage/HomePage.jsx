@@ -58,6 +58,7 @@ const HomePage = () => {
 
   return (
     <div className="home-body">
+      <NavBar />
 
       {/* introductory section */}
         <section id="landing">
@@ -210,11 +211,20 @@ const HomePage = () => {
       </section>
 
       {/* VR Explore Section */}
-      <section id="explore">
-        <p>Discover unparalleled luxury living at The Oasis by Emaar, an exclusive sanctuary nestled amidst lush greenery and tranquil
-            waterways. Our meticulously crafted residences, including mansions and villas, are designed by world-renowned architects
-            and adorned with interiors by acclaimed designers.</p>
-        <button class="vrBtn"> <a href="https://view.propvr.tech/f2eon9/projectscene/6662a98d63ea238bc171bfeb/666c1b602bc6bae7a2d7051d">EXPLORE-VR TOUR</a></button>
+      
+      <section id="explore" className="vr-section">
+
+        {/* Background image */}
+        <div className="vr-backdrop">
+            <div className="vr-overlay">
+                <div className="vr-content">
+                    <p>Discover unparalleled luxury living at The Oasis by Emaar, an exclusive sanctuary nestled amidst lush greenery and tranquil waterways. Our meticulously crafted residences, including mansions and villas, are designed by world-renowned architects and adorned with interiors by acclaimed designers.</p>
+                    <a href="https://properties.emaar.com/en/communities-vr-tour/?community=THE%20OASIS" target="_blank" rel="noopener noreferrer">
+                        <button className='vr-button'>Explore VR Tour</button> 
+                    </a>
+                </div>
+            </div>
+          </div>
       </section>
 
       {/* FAQ section */}
