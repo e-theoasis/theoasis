@@ -45,7 +45,7 @@ const ContactForm = () => {
                     <div className="left">
                     </div>
                     <div className="right">
-                        <h2>Contact Us</h2>
+                        <h2>Request a Callback</h2>
                         <form onSubmit={handleSubmit}>
                             <input type="text" className="field" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required/>
                             <input type="email" className="field" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
