@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar';
 import ContactForm from './components/ContactForm/ContactForm';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import './app.css';
 
 export function App() {
   const [count, setCount] = useState(0);
