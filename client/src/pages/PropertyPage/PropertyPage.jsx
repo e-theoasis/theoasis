@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
+import ContactForm from '../../components/ContactForm/ContactForm';
 import './PropertyPage.css';
 import { properties } from '../../data/properties'; 
 import community1 from '../../assets/images/left-1.jpg';
@@ -13,7 +14,7 @@ const PropertyPage =({slug}) => {
     useEffect(() => {
         window.scrollTo(0, 0); // scroll to top on mount
     }, []);
-    
+
     const property = Object.values(properties).find (
         (p) => p.slug === slug
     );
@@ -66,19 +67,25 @@ const PropertyPage =({slug}) => {
                 </div>
                 <div className="intro-image">
                     <img src={property.property_logo} alt="Property Logo" />
-                    <button>Register Interest</button>
+                    <a href="#contactform">
+                        <button className='register-button'>Register Interest</button> 
+                    </a>
                 </div>
             </div>
 
             <div className="about-section">
                 <div className="right">
                     <h3>{property.property_about1_title}</h3>
-                    <p>{property.property_about1_text}</p>
+                    <div className="about-info">
+                        <p>{property.property_about1_text}</p>
+                    </div>
                     <img src={property.property_about1_image} alt="" />
                 </div>
                 <div className="left">
                     <h3>{property.property_about2_title}</h3>
-                    <p>{property.property_about2_text}</p>
+                    <div className="about-info">
+                        <p>{property.property_about2_text}</p>
+                    </div>
                     <img src={property.property_about2_image} alt="" />
                 </div>
             </div>
@@ -231,48 +238,49 @@ const PropertyPage =({slug}) => {
 
             <div className="community-section">
 
-                <img src={community1} alt="Community View 1" className="community-1" />
-                <img src={community2} alt="Community View 2" className="community-2" />
+                <div className="community-container">
+                    <img src={community1} alt="Community View 1" className="community-1" />
+                    <img src={community2} alt="Community View 2" className="community-2" />
 
-                {/* Center text block */}
-                <div className="community-content">
-                    <h4>Immerse in Pure Luxury</h4>
-                    <h2>THE OASIS</h2>
-                    <p>
-                        Discover unparalleled luxury living at The Oasis by Emaar, an exclusive sanctuary nestled amidst lush greenery and tranquil waterways. Our meticulously crafted residences, including mansions and villas, are designed by world-renowned architects and adorned with interiors by acclaimed designers. Enjoy seamless indoor-outdoor living, complemented by an abundance of world-class amenities. Your journey to unparalleled sophistication begins now at Emaar's The Oasis. Welcome home to a lifestyle of effortless luxury and timeless charm.
-                    </p>
-                    <div className="icons">
-                        <div className="icon">
-                            <img width="100" height="100" src="https://img.icons8.com/ios/100/field.png" alt="field"/>     
-                            <h4>100 million sq ft</h4>  
-                            <h5>Total land Area</h5>     
-                        </div>                
-                        <div className="icon">
-                            <img width="100" height="100" src="https://img.icons8.com/dotty/80/cottage.png" alt="cottage"/>
-                            <h4>3100</h4>
-                            <h5>Villas</h5>
+                    {/* Center text block */}
+                    <div className="community-content">
+                        <h4>Immerse in Pure Luxury</h4>
+                        <h2>THE OASIS</h2>
+                        <p>
+                            Discover unparalleled luxury living at The Oasis by Emaar, an exclusive sanctuary nestled amidst lush greenery and tranquil waterways. Our meticulously crafted residences, including mansions and villas, are designed by world-renowned architects and adorned with interiors by acclaimed designers. Enjoy seamless indoor-outdoor living, complemented by an abundance of world-class amenities. Your journey to unparalleled sophistication begins now at Emaar's The Oasis. Welcome home to a lifestyle of effortless luxury and timeless charm.
+                        </p>
+                        <div className="icons">
+                            <div className="icon">
+                                <img width="100" height="100" src="https://img.icons8.com/ios/100/field.png" alt="field"/>     
+                                <h4>100 million sq ft</h4>  
+                                <h5>Total land Area</h5>     
+                            </div>                
+                            <div className="icon">
+                                <img width="100" height="100" src="https://img.icons8.com/dotty/80/cottage.png" alt="cottage"/>
+                                <h4>3100</h4>
+                                <h5>Villas</h5>
+                            </div>
+                            <div className="icon">
+                                <img width="100" height="100" src="https://img.icons8.com/ios/100/golf.png" alt="golf"/>
+                                <h4>4 Intl. Golf Courses</h4>
+                                <h5>Open Spaces + Amenities</h5>
+                            </div>
+                            <div className="icon">
+                                <img width="100" height="100" src="https://img.icons8.com/dotty/100/building.png" alt="building"/>
+                                <h4>25% of the Land</h4>
+                                <h5>In Close Proximity</h5>
+                            </div>
                         </div>
-                        <div className="icon">
-                            <img width="100" height="100" src="https://img.icons8.com/ios/100/golf.png" alt="golf"/>
-                            <h4>4 Intl. Golf Courses</h4>
-                            <h5>Open Spaces + Amenities</h5>
-                        </div>
-                        <div className="icon">
-                            <img width="100" height="100" src="https://img.icons8.com/dotty/100/building.png" alt="building"/>
-                            <h4>25% of the Land</h4>
-                            <h5>In Close Proximity</h5>
-                        </div>
+                        <a href="https://properties.emaar.com/en/our-communities/the-oasis/" target="_blank" rel="noopener noreferrer">
+                            <button className='community-button'>View Community</button> 
+                        </a>
                     </div>
-                    <a href="https://properties.emaar.com/en/our-communities/the-oasis/" target="_blank" rel="noopener noreferrer">
-                        <button className='community-button'>View Community</button> 
-                    </a>
+
+                    <img src={community3} alt="Community View 3" className="community-3" />
+                    <img src={community4} alt="Community View 4" className="community-4" />
+                    <img src={community5} alt="Community View 5" className="community-5" />
                 </div>
-
-                <img src={community3} alt="Community View 3" className="community-3" />
-                <img src={community4} alt="Community View 4" className="community-4" />
-                <img src={community5} alt="Community View 5" className="community-5" />
             </div>
-
         </div>
     );
 };
