@@ -13,7 +13,6 @@ export function App() {
 
   return (
     <div className="App" id='complete'>  
-        < NavBar />
         <Router onChange={({url}) => setCurrentPath(url)}>
           <HomePage path="/" />
           <PropertyPage path="/property/:slug" />
