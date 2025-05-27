@@ -2,6 +2,7 @@ import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
 import ContactForm from '../../components/ContactForm/ContactForm';
 import './PropertyPage.css';
+import NavBar from '../../components/PropertyNavbar/PropertyNavbar';
 import { properties } from '../../data/properties'; 
 import community1 from '../../assets/images/left-1.jpg';
 import community2 from '../../assets/images/left-2.jpg';
@@ -21,6 +22,7 @@ const PropertyPage =({slug}) => {
 
     return (
         <div className="property-body">
+            <NavBar />
 
             {/* heading + slider */}
             <div className="landing-section">
@@ -57,10 +59,7 @@ const PropertyPage =({slug}) => {
                 </div>
             </div>
 
-            <div className="about-property">
-                
-            </div>
-            <div className="intro-section">
+            <div className="intro-section" id="about-property">
                 <div className="intro-text">
                     <h3>{property.property_logline}</h3>
                     <p>{property.property_intro}</p>
@@ -131,7 +130,7 @@ const PropertyPage =({slug}) => {
                 </div>
             </div>
 
-            <div className="gallery-section">
+            <div className="gallery-section" id="property-gallery">
                 <div className="gallery-header">
                     <h2>GALLERY</h2>
                 </div>
@@ -220,7 +219,7 @@ const PropertyPage =({slug}) => {
             </div>
 
 
-            <div className="vr-section">
+            <div className="vr-section" id="vr-tour">
 
                 {/* Background image */}
                 <div className="vr-backdrop">
@@ -236,7 +235,7 @@ const PropertyPage =({slug}) => {
             </div>
 
 
-            <div className="community-section">
+            <div className="community-section" id="property-community">
 
                 <div className="community-container">
                     <img src={community1} alt="Community View 1" className="community-1" />
