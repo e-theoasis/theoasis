@@ -254,7 +254,7 @@ p {
     flex-wrap: wrap;
 }
 
-.stat {
+.property-stat {
     background-color: white;
     width: 330px;
     padding: 1rem 2rem 1.5rem;
@@ -264,13 +264,13 @@ p {
     border: #4d4d4f 1.2px solid;
 }
 
-.stat img {
+.property-stat img {
     width: 30px;
     height: 30px;
     margin-bottom: 0.5rem; 
 }
 
-.stat .stat-text {
+.property-stat .property-stat-text {
     font-size: 1.25rem;
     margin-top: 0.5rem;
 }
@@ -285,11 +285,11 @@ p {
     .info-stats {
         gap: 1rem;
     }
-    .stat {
+    .property-stat {
         width: 250px;
         padding: 1rem;
     }
-    .stat .stat-text {
+    .property-stat .property-stat-text {
         font-size: 1.1rem;
     }
 }
@@ -312,11 +312,11 @@ p {
         align-items: center;
         gap: 2rem;
     }
-    .stat {
+    .property-stat {
         width: 75%;
         padding: 1rem;
     }
-    .stat .stat-text {
+    .property-stat .property-stat-text {
         font-size: 1rem;
     }
 }
