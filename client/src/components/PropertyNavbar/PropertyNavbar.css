@@ -1,0 +1,65 @@
+/* HEADER STYLING */
+header{
+    font-family: 'Optima Regular', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 0 25px;
+    }
+}
+a.logo {
+    padding: 10px 0px;
+}
+
+/* NAV LINKS */
+ul{
+    list-style: none;
+    cursor: pointer;
+    li{
+        display: inline-block;
+        font-size: 16px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 0 25px;
+    }
+}
+
+/*contact button*/
+button{
+    padding: 10px 25px;
+    background-color: #4D4D4F;
+    font-size: 12px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    header{
+        a{
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+}
+@media (min-width: 300px) and (max-width: 767px){
+    header{
+        li{
+            display: none;
+        }
+    }
+    button {
+        padding: 10px 0px;
+    }
+}
