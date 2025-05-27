@@ -16,6 +16,9 @@ header{
         padding: 0 25px;
     }
 }
+a.logo {
+    padding: 10px 0px;
+}
 
 /* NAV LINKS */
 ul{
@@ -55,5 +58,8 @@ button{
         li{
             display: none;
         }
+    }
+    button {
+        padding: 10px 0px;
     }
 }
