@@ -11,22 +11,26 @@
     background-position: center;
     position: relative;
     align-content: center;
+    justify-content: center;
     min-height: 90vh;
 }
 
 #landingText{
     font-family: 'Optima Regular', sans-serif;
-    width: 55%;
+    width: 30%;
     margin: 0 auto;
     font-size: 30px;
     text-align: center;
     padding: 25px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
     color: black;
     h1{
         font-size: 35px;
         font-weight: 400;
     }
+}
+#landingText img {
+    width: 300px;
 }
 
 #intro {
@@ -191,17 +195,27 @@
     transition: 0.8s ease;
     transition-delay: 1s;
     padding: 5px 10px;
-    text-decoration: underline;
 }
 #properties .swiper-slide-active .title{
     z-index: 1;
     align-items: start;
-    padding: 25px 25px 45px;
+    padding: 25px 25px 50px;
 }
 #properties .swiper-slide-active .title h2{
     opacity: 1;
     transition-delay: -200ms;
 }
+#properties .learn-more {
+    color: #000;
+    font-size: 15px;
+    opacity: 0;
+}
+#properties .swiper-slide-active .learn-more{
+    opacity: 1;
+    background-color: #f8f8f8;
+    padding: 5px 10px;
+}
+
 /* Property Section - Property content */
 #properties .content {
     position: absolute;
@@ -390,7 +404,7 @@
 }
 
 .vr-overlay {
-    background-color: rgba(0, 0, 0, 0.4); /* Dark transparent overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
     position: absolute;
     top: 0;
     left: 0;

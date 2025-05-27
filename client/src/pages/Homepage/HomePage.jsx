@@ -13,6 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
 
+import oasisLogo from '../../../public/home-images/oasis-logo.jpeg';
 import amenity1 from '../../../public/home-images/area.png';
 import amenity2 from '../../../public/home-images/villas.png';
 import amenity3 from '../../../public/home-images/spaces.png';
@@ -63,7 +64,7 @@ const HomePage = () => {
       {/* introductory section */}
         <section id="landing">
             <div id="landingText">
-                <h1>THE OASIS BY EMAAR</h1>
+                <img src={oasisLogo} alt="The Oasis" />
             </div>
         </section>
 
@@ -113,7 +114,7 @@ const HomePage = () => {
       {/* Property Section */}
         <section id="properties">
           <div className="property-title">
-            <h2>Properties</h2>
+            <h2>LATEST LAUNCHES</h2>
           </div>
           <div className="container">
             <Swiper 
@@ -138,7 +139,8 @@ const HomePage = () => {
                     <SwiperSlide key={id}>
                       <img src={property.property_landing_images[0]} alt={property.property_title} />
                         <div className="title">
-                          <Link href={`/property/${property.slug}`} key={id} className="property-link"><h2>{property.property_title}</h2></Link>
+                          <h2>{property.property_title}</h2>
+                          <Link href={`/property/${property.slug}`} key={id} className="property-link"><p className='learn-more'>Learn More →</p></Link>
                         </div>
                         <div className="content">
                           <div className="text-box">
