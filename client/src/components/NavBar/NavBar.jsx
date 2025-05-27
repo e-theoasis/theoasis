@@ -12,7 +12,7 @@ const NavBar =() => {
                 <nav>
                     <ul id="navbar">
                         <li><a href="#intro">ABOUT US</a></li>
-                        <li><a href="#properties">PROPERTIES</a></li>
+                        <li><a href="#properties">LATEST PROPERTIES</a></li>
                         <li><a href="#communities">COMMUNITIES</a></li>
                         <li><a href="#location">LOCATION</a></li>
                     </ul>
