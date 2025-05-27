@@ -144,16 +144,6 @@ const PropertyPage =({slug}) => {
                         ))}
                     </div>
                 </div>
-
-                {/* Gallery Block 2 */}
-                <div className="gallery-block">
-                    <h2>{property.property_gallery2_title}</h2>
-                    <div className="image-slider">
-                        {property.property_gallery2_images.map((img, index) => (
-                            <img src={img} alt={`Gallery 2 - ${index + 1}`} key={index} />
-                        ))}
-                    </div>
-                </div>
             </div>
 
 

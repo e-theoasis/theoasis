@@ -145,9 +145,7 @@ export const properties = {
         property_icon_stat3: '',
         property_info_stat3: '',
         property_gallery1_title: 'Sculpted by Water, Shaped by Nature',
-        property_gallery1_images: [p1_gallery1_1, p1_gallery1_2, p1_gallery1_3, p1_gallery1_4, p1_gallery1_5, p1_gallery1_6], //slider
-        property_gallery2_title: 'Crafted for the Visionaries',
-        property_gallery2_images: [p1_gallery2_1, p1_gallery2_2, p1_gallery2_3], //slider
+        property_gallery1_images: [p1_gallery1_1, p1_gallery1_2, p1_gallery1_3, p1_gallery1_4, p1_gallery1_5, p1_gallery1_6, p1_gallery2_1, p1_gallery2_2, p1_gallery2_3], //slider
     },
 
     // PROPERTY TWO DATA
@@ -175,9 +173,7 @@ export const properties = {
         property_icon_stat3: stat3_icon,
         property_info_stat3: 'Starting Price 13.16 MN AED',
         property_gallery1_title: 'Harmonizing Spaces, Water Inspired',
-        property_gallery1_images: [p2_gallery1_1, p2_gallery1_2, p2_gallery1_3, p2_gallery1_4, p2_gallery1_5], //slider
-        property_gallery2_title: 'Elegance in Every Wave, Calm in Every Detail',
-        property_gallery2_images: [p2_gallery2_1, p2_gallery2_2, p2_gallery2_3, p2_gallery2_4], //slider
+        property_gallery1_images: [p2_gallery1_1, p2_gallery1_2, p2_gallery1_3, p2_gallery1_4, p2_gallery1_5, p2_gallery2_1, p2_gallery2_2, p2_gallery2_3, p2_gallery2_4], //slider
     },
 
     // PROPERTY THREE DATA
@@ -205,9 +201,7 @@ export const properties = {
         property_icon_stat3: stat3_icon,
         property_info_stat3: 'Starting price 36M AED',
         property_gallery1_title: 'Inspiring Mastery',
-        property_gallery1_images: [p3_gallery1_1, p3_gallery1_2, p3_gallery1_3, p3_gallery1_4, p3_gallery1_5], //slider
-        property_gallery2_title: 'Expansive Living',
-        property_gallery2_images: [p3_gallery2_1, p3_gallery2_2, p3_gallery2_3, p3_gallery2_4], //slider
+        property_gallery1_images: [p3_gallery1_1, p3_gallery1_2, p3_gallery1_3, p3_gallery1_4, p3_gallery1_5, p3_gallery2_1, p3_gallery2_2, p3_gallery2_3, p3_gallery2_4], //slider
     },
 
     // PROPERTY FOUR DATA
@@ -235,9 +229,7 @@ export const properties = {
         property_icon_stat3: '',
         property_info_stat3: '',
         property_gallery1_title: 'Thoughtfully Designed Residences',
-        property_gallery1_images: [p4_gallery1_1, p4_gallery1_2, p4_gallery1_3, p4_gallery1_4], //slider
-        property_gallery2_title: 'Designed with a focus on well-being',
-        property_gallery2_images: [p4_gallery2_1, p4_gallery2_2], //slider
+        property_gallery1_images: [p4_gallery1_1, p4_gallery1_2, p4_gallery1_3, p4_gallery1_4, p4_gallery2_1, p4_gallery2_2], //slider
     },
 
     // PROPERTY FIVE DATA
@@ -265,9 +257,7 @@ export const properties = {
         property_icon_stat3: '',
         property_info_stat3: '',
         property_gallery1_title: 'Thoughtfully Designed Residences',
-        property_gallery1_images: [p5_gallery1_1, p5_gallery1_2, p5_gallery1_3, p5_gallery1_4], //slider
-        property_gallery2_title: 'Designed with a focus on well-being',
-        property_gallery2_images: [p5_gallery2_1, p5_gallery2_2], //slider
+        property_gallery1_images: [p5_gallery1_1, p5_gallery1_2, p5_gallery1_3, p5_gallery1_4, p5_gallery2_1, p5_gallery2_2], //slider
     },
 
     // PROPERTY SIX DATA
@@ -295,9 +285,7 @@ export const properties = {
         property_icon_stat3: stat3_icon,
         property_info_stat3: 'Starting price 15.8 Mn AED',
         property_gallery1_title: 'A Harmony of Design and Nature',
-        property_gallery1_images: [p6_gallery1_1, p6_gallery1_2, p6_gallery1_3, p6_gallery1_4], //slider
-        property_gallery2_title: 'Luxurious Living Redefined',
-        property_gallery2_images: [p6_gallery2_1, p6_gallery2_2, p6_gallery2_3, p6_gallery2_4, p6_gallery2_5], //slider
+        property_gallery1_images: [p6_gallery1_1, p6_gallery1_2, p6_gallery1_3, p6_gallery1_4, p6_gallery2_1, p6_gallery2_2, p6_gallery2_3, p6_gallery2_4, p6_gallery2_5], //slider
     },
 
     // PROPERTY SEVEN DATA
@@ -325,8 +313,6 @@ export const properties = {
         property_icon_stat3: stat2_icon,
         property_info_stat3: '',
         property_gallery1_title: 'Thoughtfully Designed Residences',
-        property_gallery1_images: [p7_gallery1_1, p7_gallery1_2], //slider
-        property_gallery2_title: 'Designed with a focus on well-being',
-        property_gallery2_images: [p7_gallery2_1, p7_gallery2_2], //slider
+        property_gallery1_images: [p7_gallery1_1, p7_gallery1_2, p7_gallery2_1, p7_gallery2_2], //slider
     }
 }
