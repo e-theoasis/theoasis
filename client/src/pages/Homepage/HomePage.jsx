@@ -1,7 +1,5 @@
 import './HomePage.css';
 import NavBar from '../../components/NavBar/NavBar';
-import ContactForm from '../../components/ContactForm/ContactForm';
-import Footer from '../../components/Footer/Footer';
 
 import { useEffect, useRef } from 'react';
 import { Link } from 'preact-router'; //
@@ -63,9 +61,7 @@ const HomePage = () => {
 
       {/* introductory section */}
         <section id="landing">
-            <div id="landingText">
-                <img src={oasisLogo} alt="The Oasis" />
-            </div>
+          <img src={oasisLogo} alt="The Oasis" />
         </section>
 
         <section id='intro'>

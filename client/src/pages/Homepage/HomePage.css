@@ -10,27 +10,16 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     min-height: 90vh;
 }
-
-#landingText{
-    font-family: 'Optima Regular', sans-serif;
-    width: 30%;
-    margin: 0 auto;
-    font-size: 30px;
-    text-align: center;
-    padding: 25px;
-    background-color: white;
-    color: black;
-    h1{
-        font-size: 35px;
-        font-weight: 400;
-    }
-}
-#landingText img {
+#landing img {
     width: 300px;
+    padding: 30px;
+    background-color: white;
 }
 
 #intro {
