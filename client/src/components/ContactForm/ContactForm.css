@@ -118,7 +118,7 @@ textarea {
 
 @media (max-width:880px) {
     .contact-form-body {
-        padding: 100px 15%;
+        padding: 40px 15%;
        
     }
     .contact-form-container {
@@ -136,7 +136,7 @@ textarea {
 @media (max-width:600px) {
     .contact-form-body {
         height: auto;
-        padding: 100px 7%;
+        padding: 40px 7%;
        
     }
     .contact-form-container{
