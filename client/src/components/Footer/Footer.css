@@ -19,15 +19,17 @@ footer{
     }
 
     .socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         list-style: none;
         cursor: pointer;
         li{
             padding: 0px 10px 0px 0px;
         }
-        img{
-            width: 30px;
-            height: 30px;
-            background-color: #F8F8F8;
+        i {
+            font-size: 26px;
+            color: #F8F8F8;
         }
     }
     .links{

@@ -16,14 +16,14 @@ const Footer =() => {
                     <div className='one'>
                         <h1>EMAAR</h1>
                         <ul class="socials">
-                            <li><img src={icon1} alt=""/></li>
-                            <li><img src={icon2} alt=""/></li>
-                            <li><img src={icon3} alt=""/></li>
-                            <li><img src={icon4} alt=""/></li>
-                            <li><img src={icon5} alt=""/></li>
+                            <li><i class="fa fa-facebook-f"></i></li>
+                            <li><i class="fa fa-x"></i></li>
+                            <li><i class="fa fa-youtube-play"></i></li>
+                            <li><i class="fa fa-instagram"></i></li>
+                            <li><i class="fa fa-linkedin-square"></i></li>
                         </ul>
                         <div className='three'>
-                            <h5>Contact Us</h5>
+                            <h5>Get Latest Updates</h5>
                             <form action="">
                                 <input type="email" placeholder="Enter Email" required/>
                                 <button>SUBSCRIBE</button>
@@ -32,7 +32,7 @@ const Footer =() => {
                     </div>
 
                     <div className='two'>
-                        <h4>The Oasis</h4>
+                        <h4>The Oasis - Latest Launches</h4>
                         <ul class="links">
                             {Object.entries(properties).map(([id, property]) => (
                             <li key={id}>
