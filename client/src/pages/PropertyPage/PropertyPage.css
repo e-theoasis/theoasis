@@ -554,7 +554,7 @@ p {
 }
 
 .vr-overlay {
-    background-color: rgba(0, 0, 0, 0.4); /* Dark transparent overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
     position: absolute;
     top: 0;
     left: 0;
