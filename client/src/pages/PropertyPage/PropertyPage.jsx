@@ -99,33 +99,33 @@ const PropertyPage =({slug}) => {
 
                 <div className="info-stats">
                     {property.property_info_stat1 && (
-                        <div className="stat">
+                        <div className="property-stat">
                             <img
                                 src={property.property_icon_stat1}
                                 alt="Stat 1 Icon"
-                                className="stat-icon"
+                                className="property-stat-icon"
                             />
-                            <div className="stat-text">{property.property_info_stat1}</div>
+                            <div className="property-stat-text">{property.property_info_stat1}</div>
                         </div>
                     )}
                     {property.property_info_stat2 && (
-                        <div className="stat">
+                        <div className="property-stat">
                             <img
                                 src={property.property_icon_stat2}
                                 alt="Stat 2 Icon"
-                                className="stat-icon"
+                                className="property-stat-icon"
                             />
-                            <div className="stat-text">{property.property_info_stat2}</div>
+                            <div className="property-stat-text">{property.property_info_stat2}</div>
                         </div>
                     )}
                     {property.property_info_stat3 && property.property_info_stat3.trim() !== '' && (
-                        <div className="stat">
+                        <div className="property-stat">
                             <img
                                 src={property.property_icon_stat3}
                                 alt="Stat 3 Icon"
-                                className="stat-icon"
+                                className="property-stat-icon"
                             />
-                            <div className="stat-text">{property.property_info_stat3}</div>
+                            <div className="property-stat-text">{property.property_info_stat3}</div>
                         </div>
                     )}
                 </div>
