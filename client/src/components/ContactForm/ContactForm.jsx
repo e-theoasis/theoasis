@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import './ContactForm.css';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 const ContactForm = () => {
 
@@ -49,7 +51,19 @@ const ContactForm = () => {
                         <form onSubmit={handleSubmit}>
                             <input type="text" className="field" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required/>
                             <input type="email" className="field" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                            <input type="text" className="field" placeholder="Phone Number" value={phone} onChange={(e) => setPhone(e.target.value)} required pattern="[0-9]{10,11}" title="Please enter a valid phone number" />
+                            <div className="phone-number">
+                                <PhoneInput
+                                country={'ae'} // Default to UAE className="field"
+                                value={phone}
+                                onChange={(phone) => setPhone(phone)}
+                                inputClass="field"
+                                required pattern="[0-9]{10,11}" title="Please enter a valid phone number"
+                                inputProps={{
+                                    name: 'phone',
+                                    required: true,
+                                }}
+                                />
+                            </div>
                             <textarea className="field area" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
                             <button className="btn" type="submit">Send</button>
                         </form>
