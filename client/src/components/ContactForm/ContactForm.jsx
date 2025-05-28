@@ -51,17 +51,20 @@ const ContactForm = () => {
                         <form onSubmit={handleSubmit}>
                             <input type="text" className="field" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required/>
                             <input type="email" className="field" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                            <div className="phone-number">
+                            <div className="phone-input-container">
                                 <PhoneInput
-                                country={'ae'} // Default to UAE className="field"
+                                country={"ae"}
                                 value={phone}
-                                onChange={(phone) => setPhone(phone)}
-                                inputClass="field"
+                                onChange={(phone) => { if (phone.length <=15) setPhone(phone)}}
+                                containerClass="phone-field"
+                                buttonClass="phone-dropdown"
+                                inputClass="phone-input"
                                 required pattern="[0-9]{10,11}" title="Please enter a valid phone number"
                                 inputProps={{
                                     name: 'phone',
                                     required: true,
                                 }}
+                                placeholder="Phone Number"
                                 />
                             </div>
                             <textarea className="field area" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
