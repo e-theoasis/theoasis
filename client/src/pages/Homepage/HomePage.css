@@ -353,6 +353,9 @@
         width: 80%;
     }
 }
+#map {
+    padding: 2rem;
+}
 #steps{ /* for the steps section layout */
     width: 80%;
     text-align: center;

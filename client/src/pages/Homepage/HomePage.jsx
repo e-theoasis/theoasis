@@ -187,7 +187,7 @@ const HomePage = () => {
       {/* Location Section */}
       <section id="location">
         <h2>LOCATION</h2>
-        <img src={location} alt=""/>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.168503773111!2d55.21816727401698!3d24.994389639887885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f7361f040f82d%3A0xad250bb471370b30!2zRU1BQVIgVEhFIE9BU0lTINin2LnZhdin2LEg2KfZhNmI2KfYrdmH!5e0!3m2!1sen!2sae!4v1748370511493!5m2!1sen!2sae" id="map" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <section id="steps">
                 <div className='stat border'>
                     <h5>18</h5>
