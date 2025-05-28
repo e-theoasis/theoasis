@@ -454,6 +454,10 @@
         cursor: pointer;
         transition: background 0.3s;
     }
+    #map {
+        width: 660px;
+        height: 371px;
+    }
 }
 
 @media (min-width:400px) and (max-width: 767px) {
@@ -476,6 +480,11 @@
     .vr-button {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
+    }
+
+    #map {
+        width: 400px;
+        height: 320px;
     }
 } 
 
