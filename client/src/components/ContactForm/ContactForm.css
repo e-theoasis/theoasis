@@ -139,7 +139,6 @@ textarea {
   background-color: #f8f8f8 !important;
   font-size: 1.1rem !important;
   transition: .3s !important;
-  border-radius: none !important;
   border: none !important;
   outline: none !important;
 }
@@ -149,23 +148,13 @@ textarea {
 .phone-input:focus {
     background-color: #ffffff !important;
     border: 1px solid #e8e0d1 !important;
-    border-radius: none !important;
     outline: none !important;
 }
 /* Style the flag dropdown */
 .phone-dropdown {
   margin: 0px !important;
   height: 100% !important;
-  border: none !important;
   outline: none !important;
-}
-
-/* Optional: dropdown menu styling (via global override) */
-.react-tel-input .country-list {
-  max-height: 200px;
-  overflow-y: auto;
-  border-radius: 6px;
-  font-size: 14px;
 }
 
 

@@ -58,7 +58,14 @@ const ContactForm = () => {
                                 onChange={(phone) => { if (phone.length <=15) setPhone(phone)}}
                                 containerClass="phone-field"
                                 buttonClass="phone-dropdown"
+                                buttonStyle={{
+                                    border:"none",
+                                    width:"40px"
+                                }}
                                 inputClass="phone-input"
+                                inputStyle={{
+                                    borderRadius:"none"
+                                }}
                                 required pattern="[0-9]{10,11}" title="Please enter a valid phone number"
                                 inputProps={{
                                     name: 'phone',
