@@ -356,7 +356,7 @@
 #map {
     padding: 2rem;
 }
-#steps{ /* for the steps section layout */
+#steps { 
     width: 80%;
     text-align: center;
     display: grid;
@@ -488,43 +488,6 @@
     }
 } 
 
-/* #explore{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("../../../public/home-images/vrImage.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 45vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center ;
-    text-align: center;
-    background-color: #4D4D4F;
-    color: white;
-    margin: 40px 0 40px;
-
-    p{
-        font-size: 20px;
-        width: 70%;
-        padding: 30px;
-    }
-}
-.vrBtn{
-    margin: 10px;
-    padding: 15px 45px;
-    margin-right: 30px;
-    background-color: white;
-    border: none;
-    color: black;
-    cursor: pointer;
-
-
-    a{
-        color: black;
-        text-decoration: none;
-    }
-} */
-
 #faqs {
     display: flex;
     flex-direction: column;
@@ -643,12 +606,6 @@
             margin: 10px 0;
         }
     }
-/* 
-    #explore{
-        p{
-            font-size: 16px;
-        }
-    } */
 }
 
 
@@ -752,13 +709,6 @@
             border-right: none;
         }
     }
-
-    /* #explore{
-        min-height: 50vh;
-        p{
-            font-size: 13px;
-        }
-    } */
 
     #faqs .title h3{
         font-size: 16px;
